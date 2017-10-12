@@ -13,9 +13,9 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
     //Deklarere variablerne!
-    TextField txtnuml, txtnum2;
-    Button btnadd, btnsub, btndiv, btnmul, btnclear;
-    Label lblanswer;
+    TextField txtnuml, txtnum2;                         //Tekstfelterne Num1 og Num2
+    Button btnadd, btnsub, btndiv, btnmul, btnclear;    //Knapperne +, -, * og /
+    Label lblanswer;                                    //Label til at udskrive svaret
 
     @Override
     public void start(Stage primaryStage){
